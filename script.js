@@ -1,6 +1,7 @@
 const target = document.querySelectorAll(".tab")
 
-function change() {
-}
+for (let i = 0; i < 4; i++) {
+    target[i].style.display = "none";
 
-console.log(target)
+    console.log(target[i])
+} 
